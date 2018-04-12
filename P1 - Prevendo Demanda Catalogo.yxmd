@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="66" />
+        <Position x="54" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -20,9 +20,6 @@
 Table=`p1-customers$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Name" size="255" source="File: \\Mac\Home\Desktop\COURSES\NANODEGREE DATA ANALYST\PROJECT - 1 Prevendo a demanda de um catalogo\p1-customers.xlsx|||`p1-customers$`" type="V_String" />
@@ -44,7 +41,7 @@ Table=`p1-customers$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="174" y="66" />
+        <Position x="174" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -64,7 +61,7 @@ Table=`p1-customers$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="Linear_Regression">
-        <Position x="306" y="234" />
+        <Position x="306" y="282" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -105,11 +102,11 @@ Table=`p1-customers$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="402" y="234" />
+        <Position x="402" y="282" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6320_f3947795b3c04a97a2d7787c4ef5cd85_\Engine_1512_bdccdd509856484381ed5dbdd289c0b3_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7640_f9c0434681524b3a8909dc9d61b85ed2_\Engine_1424_83ebc688035e449bb61ed68dc00ed542_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -133,7 +130,7 @@ Table=`p1-customers$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="342" />
+        <Position x="54" y="390" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -150,9 +147,6 @@ Table=`p1-customers$`</DefaultAnnotationText>
 Table=`p1-mailinglist$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Name" size="255" source="File: \\Mac\Home\Desktop\COURSES\NANODEGREE DATA ANALYST\PROJECT - 1 Prevendo a demanda de um catalogo\p1-mailinglist.xlsx|||`p1-mailinglist$`" type="V_String" />
@@ -174,7 +168,7 @@ Table=`p1-mailinglist$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="174" y="342" />
+        <Position x="174" y="390" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -194,11 +188,11 @@ Table=`p1-mailinglist$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="402" y="282" />
+        <Position x="402" y="330" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6320_f3947795b3c04a97a2d7787c4ef5cd85_\Engine_1512_2b541adf34524dd4899c0077c18d9d6a_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7640_f9c0434681524b3a8909dc9d61b85ed2_\Engine_1424_b4e9e02d902f4fab96f1fcdfdaf073a1_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -222,7 +216,7 @@ Table=`p1-mailinglist$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="Score">
-        <Position x="318" y="342" />
+        <Position x="318" y="390" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -269,7 +263,7 @@ Table=`p1-mailinglist$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="12">
       <GuiSettings>
-        <Position x="306" y="54" />
+        <Position x="306" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -319,11 +313,11 @@ Table=`p1-mailinglist$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="402" y="54" />
+        <Position x="402" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6320_f3947795b3c04a97a2d7787c4ef5cd85_\Engine_1512_e6fd75b7625640e5940504bc022f2ffb_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7640_f9c0434681524b3a8909dc9d61b85ed2_\Engine_1424_b5e9f8b83ebc4e07b11a7f50727388eb_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -376,7 +370,7 @@ Table=`p1-mailinglist$`</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6320_f3947795b3c04a97a2d7787c4ef5cd85_\Engine_1512_3759671efe35487c8f6dbed13b0ebc5b_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7640_f9c0434681524b3a8909dc9d61b85ed2_\Engine_1424_d12026e7347249e7b79398f43bdf12b2_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -400,7 +394,7 @@ Table=`p1-mailinglist$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="450" y="342" />
+        <Position x="450" y="390" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -420,7 +414,7 @@ Total_Profit = ([Predicted_Sales]*0.5)...</DefaultAnnotationText>
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="570" y="342" />
+        <Position x="570" y="390" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -438,11 +432,11 @@ Total_Profit = ([Predicted_Sales]*0.5)...</DefaultAnnotationText>
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="690" y="342" />
+        <Position x="690" y="390" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6320_f3947795b3c04a97a2d7787c4ef5cd85_\Engine_1512_ad49af39d0cf427ea8ce317d19415169_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7640_f9c0434681524b3a8909dc9d61b85ed2_\Engine_1424_9d3fed843b974b81bd289218bf4c075b_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -466,7 +460,7 @@ Total_Profit = ([Predicted_Sales]*0.5)...</DefaultAnnotationText>
     </Node>
     <Node ToolID="19">
       <GuiSettings>
-        <Position x="306" y="102" />
+        <Position x="306" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -498,11 +492,11 @@ Total_Profit = ([Predicted_Sales]*0.5)...</DefaultAnnotationText>
     </Node>
     <Node ToolID="20">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="402" y="102" />
+        <Position x="402" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6320_f3947795b3c04a97a2d7787c4ef5cd85_\Engine_1512_094e2e5c344a46f3bcb95b2897616171_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7640_f9c0434681524b3a8909dc9d61b85ed2_\Engine_1424_c777de51e43e43c2bbf4924db3a57647_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -526,7 +520,7 @@ Total_Profit = ([Predicted_Sales]*0.5)...</DefaultAnnotationText>
     </Node>
     <Node ToolID="21">
       <GuiSettings>
-        <Position x="306" y="162" />
+        <Position x="306" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -558,11 +552,92 @@ Total_Profit = ([Predicted_Sales]*0.5)...</DefaultAnnotationText>
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="402" y="162" />
+        <Position x="402" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6320_f3947795b3c04a97a2d7787c4ef5cd85_\Engine_1512_09a70806fcd0480dbac39db22add9877_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7640_f9c0434681524b3a8909dc9d61b85ed2_\Engine_1424_03e96aa81730427a82be1d944b30bbbb_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings>
+        <Position x="306" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="x var">Avg Num Products Purchased</Value>
+          <Value name="y var">Avg Sale Amount</Value>
+          <Value name="y binary">False</Value>
+          <Value name="y level" />
+          <Value name="reg line">True</Value>
+          <Value name="smooth line">True</Value>
+          <Value name="smooth span">50</Value>
+          <Value name="spread">True</Value>
+          <Value name="boxplots">True</Value>
+          <Value name="jitter x">False</Value>
+          <Value name="jitter y">False</Value>
+          <Value name="log x">False</Value>
+          <Value name="log y">False</Value>
+          <Value name="groups">False</Value>
+          <Value name="group var">Name</Value>
+          <Value name="group lines">False</Value>
+          <Value name="default">True</Value>
+          <Value name="topleft">False</Value>
+          <Value name="topright">False</Value>
+          <Value name="bottomleft">False</Value>
+          <Value name="bottomright">False</Value>
+          <Value name="x label" />
+          <Value name="y label" />
+          <Value name="pointsize">10</Value>
+          <Value name="point size">1.0</Value>
+          <Value name="axis text size">1.2</Value>
+          <Value name="axis label size">1.3</Value>
+          <Value name="title size">1.4</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="402" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7640_f9c0434681524b3a8909dc9d61b85ed2_\Engine_1424_a263f9c48df54add8d03edc4ec4536c2_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -611,6 +686,10 @@ Total_Profit = ([Predicted_Sales]*0.5)...</DefaultAnnotationText>
       <Destination ToolID="21" Connection="Data Input" />
     </Connection>
     <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="23" Connection="Data Input" />
+    </Connection>
+    <Connection>
       <Origin ToolID="3" Connection="Reports" />
       <Destination ToolID="6" Connection="Input" />
     </Connection>
@@ -657,6 +736,10 @@ Total_Profit = ([Predicted_Sales]*0.5)...</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="21" Connection="Graph Output" />
       <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Scater Output" />
+      <Destination ToolID="24" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
